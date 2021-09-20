@@ -1,0 +1,23 @@
+<h2>Create a new Artist</h2>
+<form action="/artist/create" method="post">
+  <label for="name">Name:
+    <input type="text" name="name" id="name" />
+  </label>
+  <br />
+  <label for="genre">Genre:</label>
+  <select name="genre" id="genre">
+    <option value="Metal">Metal</option>
+    <option value="Rock">Rock</option>
+    <option value="Salsa">Salsa</option>
+    <option value="Cumbias">Cumbias</option>
+    <option value="Corridos">Corridos</option>
+    <option value="Pop">Pop</option>
+  </select>
+  <br />
+
+  <label for="country">Country:
+    <input type="text" name="country" id="country" />
+  </label>
+  <br />
+  <button type="submit">Create</button>
+</form>
